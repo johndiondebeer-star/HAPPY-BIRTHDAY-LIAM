@@ -1,57 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Liam!</title>
 
-    <style>
-        body {
-            margin: 0;
-            background: #111111;
-            color: white;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        h1 {
-            margin-top: 50px;
-        }
+<style>
+    body {
+        margin: 0;
+        padding: 20px;
+        background: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
 
-        img {
-            max-width: 90%;
-            height: auto;
-        }
+    .container {
+        max-width: 600px;
+        margin: auto;
+    }
 
-        p {
-            max-width: 700px;
-            margin: 30px auto;
-            font-size: 18px;
-            line-height: 1.6;
-        }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
 
-        .moon-section {
-            height: 500px;
-            background: linear-gradient(
-                to bottom,
-                transparent 0%,
-                #000000 70%
-            );
-            position: relative;
-            overflow: hidden;
-        }
+    h1 {
+        font-size: clamp(28px, 8vw, 50px);
+    }
 
-        .moon-section img {
-            width: 100%;
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-    </style>
+    p {
+        font-size: clamp(16px, 4vw, 22px);
+        line-height: 1.6;
+    }
+</style>
+
 </head>
 
 <body>
+
+<div class="container">
 
     <h1>Happy Birthday Liam!</h1>
 
@@ -63,9 +51,7 @@
         I hope you enjoy the CD, choom. 😄
     </p>
 
-    <div class="moon-section">
-        <img src="dnl.jfif" alt="Lucy and David on the moon">
-    </div>
+</div>
 
 </body>
 </html>
